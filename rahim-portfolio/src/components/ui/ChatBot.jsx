@@ -94,7 +94,7 @@ export default function ChatBot() {
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0, opacity: 0 }}
             onClick={() => setOpen(true)}
-            className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-br from-neon to-emerald-500 text-neutral-950 shadow-[0_0_30px_rgba(0,255,136,0.6)] hover:shadow-[0_0_50px_rgba(0,255,136,0.9)] transition-all flex items-center justify-center animate-glow-pulse"
+            className="fixed bottom-16 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-br from-neon to-emerald-500 text-neutral-950 shadow-[0_0_30px_rgba(0,255,136,0.6)] hover:shadow-[0_0_50px_rgba(0,255,136,0.9)] transition-all flex items-center justify-center animate-glow-pulse"
             aria-label="Open chat"
           >
             <FiMessageCircle size={24} />
@@ -110,7 +110,7 @@ export default function ChatBot() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="fixed bottom-6 right-6 z-50 w-[92vw] max-w-sm h-[520px] rounded-2xl overflow-hidden flex flex-col bg-neutral-950/95 backdrop-blur-xl border border-neon/30 shadow-[0_20px_60px_rgba(0,0,0,0.7),0_0_40px_rgba(0,255,136,0.15)]"
+            className="fixed bottom-16 right-6 z-50 w-[92vw] max-w-sm h-[520px] rounded-2xl overflow-hidden flex flex-col bg-neutral-950/95 backdrop-blur-xl border border-neon/30 shadow-[0_20px_60px_rgba(0,0,0,0.7),0_0_40px_rgba(0,255,136,0.15)]"
           >
             {/* Header */}
             <div className="flex items-center gap-3 px-4 py-3 border-b border-neon/20 bg-neutral-900/60">
