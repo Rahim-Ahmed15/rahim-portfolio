@@ -246,7 +246,7 @@ export const knowledge = [
   {
     keywords: ['contact', 'email', 'reach', 'message', 'rabta', 'get in touch'],
     answer:
-      "You can reach Rahim via:\n• 📧 Email: rahim@example.com\n• 🐙 GitHub: github.com/Rahim-Ahmed15\n• 💼 LinkedIn: (search 'Rahim Ahmed Full Stack')\n\nOr just use the Contact form at the bottom of this page — he replies within 24 hours!",
+      "You can reach Rahim via:\n• 📧 Email: rahimjameel15@gmailcom\n• 🐙 GitHub: github.com/Rahim-Ahmed15\n• 💼 LinkedIn: (search 'Rahim Ahmed Full Stack')\n\nOr just use the Contact form at the bottom of this page — he replies within 24 hours!",
     priority: 9,
   },
   {
